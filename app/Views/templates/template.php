@@ -100,17 +100,6 @@
                     <span>Karyawan</span></a>
             </li>
 
-            <!-- Heading -->
-            <div class="sidebar-heading">
-                Addons
-            </div>
-
-            <!-- Nav Item - Charts -->
-            <li class="nav-item">
-                <a class="nav-link" href="charts.html">
-                    <i class="fas fa-fw fa-chart-area"></i>
-                    <span>Charts</span></a>
-            </li>
 
             <!-- Divider -->
             <hr class="sidebar-divider d-none d-md-block">
@@ -177,7 +166,17 @@
                         <!-- Nav Item - User Information -->
                         <li class="nav-item dropdown no-arrow">
                             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Alman Farroz</span>
+                                <?php
+
+                                use App\Models\UserModel;
+
+                                $userModel = new UserModel();
+                                ?>
+                                <?php if (session()->get('isLoggedIn')) : ?>
+                                    <span class="mr-2 d-none d-lg-inline text-gray-600 small">Selamat Datang, <?= session()->get('username') ?>!</span>
+                                <?php else : ?>
+                                    <span class="mr-2 d-none d-lg-inline text-gray-600 small">Log in</span>
+                                <?php endif ?>
                             </a>
                             <!-- Dropdown - User Information -->
                             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
@@ -238,10 +237,15 @@
                         <span aria-hidden="true">×</span>
                     </button>
                 </div>
-                <div class="modal-body">Select "Login" below if you are ready.</div>
+                <div class="modal-body">Select below if you are ready.</div>
                 <div class="modal-footer">
-                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                    <a class="btn btn-primary" href="<?= base_url(['login']) ?>">Login</a>
+                    <?php if (session()->get('isLoggedIn')) : ?>
+                        <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                        <a class="btn btn-primary" href="<?= base_url(['logout']) ?>">Logout</a>
+                    <?php else : ?>
+                        <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                        <a class="btn btn-primary" href="<?= base_url(['login']) ?>">Login</a>
+                    <?php endif ?>
                 </div>
             </div>
         </div>

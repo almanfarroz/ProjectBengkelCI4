@@ -758,3 +758,350 @@ INFO - 2023-05-20 02:57:13 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2023-05-20 02:57:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2023-05-20 02:57:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2023-05-20 02:58:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 02:59:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 02:59:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 02:59:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 02:59:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 02:59:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 03:00:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 03:00:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 03:03:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 03:03:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 03:03:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 03:03:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-20 03:07:17 --> Undefined variable $session
+in APPPATH\Views\templates\template.php on line 169.
+ 1 APPPATH\Views\templates\template.php(169): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\semester4\\ProjectBengkelCI4\\app\\Views\\templates\\template.php', 169)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\semester4\\ProjectBengkelCI4\\app\\Views\\templates\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('templates/template', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/home', [], true)
+ 6 APPPATH\Controllers\MainController.php(23): view('pages/home')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\MainController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\semester4\\ProjectBengkelCI4\\public\\index.php')
+CRITICAL - 2023-05-20 03:08:00 --> Undefined variable $session
+in APPPATH\Views\templates\template.php on line 175.
+ 1 APPPATH\Views\templates\template.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\semester4\\ProjectBengkelCI4\\app\\Views\\templates\\template.php', 175)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\semester4\\ProjectBengkelCI4\\app\\Views\\templates\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('templates/template', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/home', [], true)
+ 6 APPPATH\Controllers\MainController.php(23): view('pages/home')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\MainController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\semester4\\ProjectBengkelCI4\\public\\index.php')
+CRITICAL - 2023-05-20 03:08:23 --> Undefined variable $session
+in APPPATH\Views\templates\template.php on line 175.
+ 1 APPPATH\Views\templates\template.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\semester4\\ProjectBengkelCI4\\app\\Views\\templates\\template.php', 175)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\semester4\\ProjectBengkelCI4\\app\\Views\\templates\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('./templates/template', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/karyawan/karyawanList', [], true)
+ 6 APPPATH\Controllers\KaryawanController.php(37): view('pages/karyawan/karyawanList', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\KaryawanController->list()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KaryawanController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\semester4\\ProjectBengkelCI4\\public\\index.php')
+CRITICAL - 2023-05-20 03:08:24 --> Undefined variable $session
+in APPPATH\Views\templates\template.php on line 175.
+ 1 APPPATH\Views\templates\template.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\semester4\\ProjectBengkelCI4\\app\\Views\\templates\\template.php', 175)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\semester4\\ProjectBengkelCI4\\app\\Views\\templates\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('templates/template', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/home', [], true)
+ 6 APPPATH\Controllers\MainController.php(23): view('pages/home')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\MainController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\semester4\\ProjectBengkelCI4\\public\\index.php')
+INFO - 2023-05-20 03:08:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-20 03:08:25 --> Undefined variable $session
+in APPPATH\Views\templates\template.php on line 175.
+ 1 APPPATH\Views\templates\template.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\semester4\\ProjectBengkelCI4\\app\\Views\\templates\\template.php', 175)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\semester4\\ProjectBengkelCI4\\app\\Views\\templates\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('././templates/template', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/auth/login', [], true)
+ 6 APPPATH\Controllers\AuthController.php(15): view('pages/auth/login')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AuthController->signin()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\semester4\\ProjectBengkelCI4\\public\\index.php')
+INFO - 2023-05-20 03:08:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-20 03:08:27 --> Undefined variable $session
+in APPPATH\Views\templates\template.php on line 175.
+ 1 APPPATH\Views\templates\template.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\semester4\\ProjectBengkelCI4\\app\\Views\\templates\\template.php', 175)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\semester4\\ProjectBengkelCI4\\app\\Views\\templates\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('././templates/template', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/auth/login', [], true)
+ 6 APPPATH\Controllers\AuthController.php(15): view('pages/auth/login')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AuthController->signin()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\semester4\\ProjectBengkelCI4\\public\\index.php')
+CRITICAL - 2023-05-20 03:08:29 --> Undefined variable $session
+in APPPATH\Views\templates\template.php on line 175.
+ 1 APPPATH\Views\templates\template.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\semester4\\ProjectBengkelCI4\\app\\Views\\templates\\template.php', 175)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\semester4\\ProjectBengkelCI4\\app\\Views\\templates\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('templates/template', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/home', [], true)
+ 6 APPPATH\Controllers\MainController.php(23): view('pages/home')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\MainController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\semester4\\ProjectBengkelCI4\\public\\index.php')
+INFO - 2023-05-20 03:08:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-20 03:08:30 --> Undefined variable $session
+in APPPATH\Views\templates\template.php on line 175.
+ 1 APPPATH\Views\templates\template.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\semester4\\ProjectBengkelCI4\\app\\Views\\templates\\template.php', 175)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\semester4\\ProjectBengkelCI4\\app\\Views\\templates\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('././templates/template', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/auth/login', [], true)
+ 6 APPPATH\Controllers\AuthController.php(15): view('pages/auth/login')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AuthController->signin()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\semester4\\ProjectBengkelCI4\\public\\index.php')
+INFO - 2023-05-20 03:08:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-20 03:08:31 --> Undefined variable $session
+in APPPATH\Views\templates\template.php on line 175.
+ 1 APPPATH\Views\templates\template.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\semester4\\ProjectBengkelCI4\\app\\Views\\templates\\template.php', 175)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\semester4\\ProjectBengkelCI4\\app\\Views\\templates\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('./templates/template', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/auth/register', [], true)
+ 6 APPPATH\Controllers\AuthController.php(52): view('pages/auth/register')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AuthController->register()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\semester4\\ProjectBengkelCI4\\public\\index.php')
+INFO - 2023-05-20 03:08:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-20 03:08:31 --> Undefined variable $session
+in APPPATH\Views\templates\template.php on line 175.
+ 1 APPPATH\Views\templates\template.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\semester4\\ProjectBengkelCI4\\app\\Views\\templates\\template.php', 175)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\semester4\\ProjectBengkelCI4\\app\\Views\\templates\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('././templates/template', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/auth/login', [], true)
+ 6 APPPATH\Controllers\AuthController.php(15): view('pages/auth/login')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AuthController->signin()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\semester4\\ProjectBengkelCI4\\public\\index.php')
+INFO - 2023-05-20 03:08:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-20 03:08:31 --> Undefined variable $session
+in APPPATH\Views\templates\template.php on line 175.
+ 1 APPPATH\Views\templates\template.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\semester4\\ProjectBengkelCI4\\app\\Views\\templates\\template.php', 175)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\semester4\\ProjectBengkelCI4\\app\\Views\\templates\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('././templates/template', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/auth/login', [], true)
+ 6 APPPATH\Controllers\AuthController.php(15): view('pages/auth/login')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AuthController->signin()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\semester4\\ProjectBengkelCI4\\public\\index.php')
+INFO - 2023-05-20 03:08:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-20 03:08:32 --> Undefined variable $session
+in APPPATH\Views\templates\template.php on line 175.
+ 1 APPPATH\Views\templates\template.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\semester4\\ProjectBengkelCI4\\app\\Views\\templates\\template.php', 175)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\semester4\\ProjectBengkelCI4\\app\\Views\\templates\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('././templates/template', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/auth/login', [], true)
+ 6 APPPATH\Controllers\AuthController.php(15): view('pages/auth/login')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AuthController->signin()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\semester4\\ProjectBengkelCI4\\public\\index.php')
+INFO - 2023-05-20 03:08:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-20 03:08:32 --> Undefined variable $session
+in APPPATH\Views\templates\template.php on line 175.
+ 1 APPPATH\Views\templates\template.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\semester4\\ProjectBengkelCI4\\app\\Views\\templates\\template.php', 175)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\semester4\\ProjectBengkelCI4\\app\\Views\\templates\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('./templates/template', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/auth/register', [], true)
+ 6 APPPATH\Controllers\AuthController.php(52): view('pages/auth/register')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AuthController->register()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\semester4\\ProjectBengkelCI4\\public\\index.php')
+INFO - 2023-05-20 03:08:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-20 03:08:32 --> Undefined variable $session
+in APPPATH\Views\templates\template.php on line 175.
+ 1 APPPATH\Views\templates\template.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\semester4\\ProjectBengkelCI4\\app\\Views\\templates\\template.php', 175)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\semester4\\ProjectBengkelCI4\\app\\Views\\templates\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('./templates/template', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/auth/register', [], true)
+ 6 APPPATH\Controllers\AuthController.php(52): view('pages/auth/register')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AuthController->register()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\semester4\\ProjectBengkelCI4\\public\\index.php')
+INFO - 2023-05-20 03:08:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-20 03:08:33 --> Undefined variable $session
+in APPPATH\Views\templates\template.php on line 175.
+ 1 APPPATH\Views\templates\template.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\semester4\\ProjectBengkelCI4\\app\\Views\\templates\\template.php', 175)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\semester4\\ProjectBengkelCI4\\app\\Views\\templates\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('././templates/template', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/auth/login', [], true)
+ 6 APPPATH\Controllers\AuthController.php(15): view('pages/auth/login')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AuthController->signin()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\semester4\\ProjectBengkelCI4\\public\\index.php')
+INFO - 2023-05-20 03:08:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-20 03:08:34 --> Undefined variable $session
+in APPPATH\Views\templates\template.php on line 175.
+ 1 APPPATH\Views\templates\template.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\semester4\\ProjectBengkelCI4\\app\\Views\\templates\\template.php', 175)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\semester4\\ProjectBengkelCI4\\app\\Views\\templates\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('./templates/template', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/auth/register', [], true)
+ 6 APPPATH\Controllers\AuthController.php(52): view('pages/auth/register')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AuthController->register()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\semester4\\ProjectBengkelCI4\\public\\index.php')
+INFO - 2023-05-20 03:08:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-20 03:08:38 --> Undefined variable $session
+in APPPATH\Views\templates\template.php on line 175.
+ 1 APPPATH\Views\templates\template.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\semester4\\ProjectBengkelCI4\\app\\Views\\templates\\template.php', 175)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\semester4\\ProjectBengkelCI4\\app\\Views\\templates\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('templates/template', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/home', [], true)
+ 6 APPPATH\Controllers\MainController.php(23): view('pages/home')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\MainController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\semester4\\ProjectBengkelCI4\\public\\index.php')
+INFO - 2023-05-20 03:08:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-20 03:08:39 --> Undefined variable $session
+in APPPATH\Views\templates\template.php on line 175.
+ 1 APPPATH\Views\templates\template.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\semester4\\ProjectBengkelCI4\\app\\Views\\templates\\template.php', 175)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\semester4\\ProjectBengkelCI4\\app\\Views\\templates\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('./templates/template', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/auth/register', [], true)
+ 6 APPPATH\Controllers\AuthController.php(52): view('pages/auth/register')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AuthController->register()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\semester4\\ProjectBengkelCI4\\public\\index.php')
+INFO - 2023-05-20 03:08:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-20 03:08:40 --> Undefined variable $session
+in APPPATH\Views\templates\template.php on line 175.
+ 1 APPPATH\Views\templates\template.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\semester4\\ProjectBengkelCI4\\app\\Views\\templates\\template.php', 175)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\semester4\\ProjectBengkelCI4\\app\\Views\\templates\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('./templates/template', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/auth/register', [], true)
+ 6 APPPATH\Controllers\AuthController.php(52): view('pages/auth/register')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AuthController->register()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\semester4\\ProjectBengkelCI4\\public\\index.php')
+INFO - 2023-05-20 03:08:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-20 03:08:41 --> Undefined variable $session
+in APPPATH\Views\templates\template.php on line 175.
+ 1 APPPATH\Views\templates\template.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\semester4\\ProjectBengkelCI4\\app\\Views\\templates\\template.php', 175)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\semester4\\ProjectBengkelCI4\\app\\Views\\templates\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('./templates/template', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/auth/register', [], true)
+ 6 APPPATH\Controllers\AuthController.php(52): view('pages/auth/register')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AuthController->register()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\semester4\\ProjectBengkelCI4\\public\\index.php')
+CRITICAL - 2023-05-20 03:08:42 --> Undefined variable $session
+in APPPATH\Views\templates\template.php on line 175.
+ 1 APPPATH\Views\templates\template.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\semester4\\ProjectBengkelCI4\\app\\Views\\templates\\template.php', 175)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\semester4\\ProjectBengkelCI4\\app\\Views\\templates\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('templates/template', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/home', [], true)
+ 6 APPPATH\Controllers\MainController.php(23): view('pages/home')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\MainController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\semester4\\ProjectBengkelCI4\\public\\index.php')
+INFO - 2023-05-20 03:08:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-20 03:09:05 --> Undefined variable $session
+in APPPATH\Views\templates\template.php on line 175.
+ 1 APPPATH\Views\templates\template.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\semester4\\ProjectBengkelCI4\\app\\Views\\templates\\template.php', 175)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\semester4\\ProjectBengkelCI4\\app\\Views\\templates\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('templates/template', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/home', [], true)
+ 6 APPPATH\Controllers\MainController.php(23): view('pages/home')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\MainController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\semester4\\ProjectBengkelCI4\\public\\index.php')
+INFO - 2023-05-20 03:09:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-20 03:09:07 --> Undefined variable $session
+in APPPATH\Views\templates\template.php on line 175.
+ 1 APPPATH\Views\templates\template.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\semester4\\ProjectBengkelCI4\\app\\Views\\templates\\template.php', 175)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\semester4\\ProjectBengkelCI4\\app\\Views\\templates\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('./templates/template', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/auth/register', [], true)
+ 6 APPPATH\Controllers\AuthController.php(52): view('pages/auth/register')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AuthController->register()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\semester4\\ProjectBengkelCI4\\public\\index.php')
+INFO - 2023-05-20 03:11:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 03:11:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 03:11:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 03:11:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 03:13:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 03:13:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 03:13:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 03:13:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 03:13:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 03:13:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 03:14:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 03:15:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 03:15:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 03:15:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 03:15:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 03:15:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 03:15:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 03:15:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 03:15:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 03:15:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
