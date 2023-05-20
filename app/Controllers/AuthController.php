@@ -25,12 +25,13 @@ class AuthController extends BaseController
 
         $user = $userModel->where('username', $data['username'])->first();
 
+
         if ($user) {
             $isPasswordCorrect = password_verify($data['password'] ?? '', $user['password']);
 
             if ($isPasswordCorrect) {
                 session()->set([
-                    'id' => $user['id'],
+                    'id_user' => $user['id_user'],
                     'username' => $user['username'],
                     'email' => $user['email'],
                     'isLoggedIn' => TRUE
@@ -38,10 +39,10 @@ class AuthController extends BaseController
 
                 return redirect()->to(url_to('home'));
             }
-            $this->session()->setFlashdata('msg', 'Password is incorrect.');
+            session()->setFlashdata('msg', 'Password is incorrect.');
             return redirect()->to(url_to('login'));
         }
-        $this->session()->setFlashdata('msg', 'Username is incorrect.');
+        session()->setFlashdata('msg', 'Username is incorrect.');
         return redirect()->to(url_to('login'));
     }
 
@@ -58,6 +59,7 @@ class AuthController extends BaseController
         $rules = [
             'username' => 'required',
             'email' => 'required|valid_email',
+            'role_name' => 'required',
             'password' => 'required|min_length[6]',
             'passconf' => 'required|matches[password]',
         ];
@@ -68,18 +70,19 @@ class AuthController extends BaseController
             $data = [
                 'username' => $this->request->getPost('username'),
                 'email' => $this->request->getPost('email'),
+                'role_name' => $this->request->getPost('role_name'),
                 'password' => password_hash($this->request->getVar('password'), PASSWORD_DEFAULT),
             ];
 
             $userModel->save($data);
 
-            return redirect()->route('login')->with('success', 'You have successfully registered');
+            return redirect()->to(url_to('login'));
         }
     }
 
     public function logout()
     {
-        $this->session()->destroy();
+        session()->destroy();
         return redirect()->to(url_to('home'));
     }
 }

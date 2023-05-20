@@ -14,7 +14,7 @@ class UserModel extends Model
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = ['username', 'email', 'password'];
+    protected $allowedFields    = ['username', 'role_name', 'email', 'password'];
 
     // Dates
     protected $useTimestamps = true;
@@ -39,4 +39,9 @@ class UserModel extends Model
     protected $afterFind      = [];
     protected $beforeDelete   = [];
     protected $afterDelete    = [];
+
+    public function getRoles()
+    {
+        return $this->db->table('roles')->get()->getResultArray();
+    }
 }

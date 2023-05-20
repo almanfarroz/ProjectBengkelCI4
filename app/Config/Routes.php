@@ -39,6 +39,9 @@ $routes->get('/listsupplier/create', 'SupplierController::create', ['as' => 'cre
 $routes->post('/listsupplier/create/save', 'SupplierController::save', ['as' => 'save_supplier']);
 $routes->get('/listsupplier/(:num)/delete', 'SupplierController::delete/$1', ['as' => 'delete_supplier']);
 
+// Supplier
+$routes->get('/listkaryawan', 'KaryawanController::list', ['as' => 'list_karyawan']);
+
 //product
 $routes->get('/listproduct', 'ProductController::list', ['as' => 'list_product']);
 $routes->get('/listproduct/(:num)/edit', 'ProductController::edit/$1', ['as' => 'edit_product']);

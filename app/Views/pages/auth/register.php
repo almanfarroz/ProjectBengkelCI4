@@ -71,12 +71,28 @@
 
             <h1>Register</h1>
 
-            <?php if (isset($validation)) : ?>
-                <div class="alert alert-danger"><?= $validation->listErrors() ?></div>
-            <?php endif; ?>
+            <?= validation_list_errors() ?>
 
-            <form action="<?= route_to('store') ?>" method="post">
-                <?= csrf_field() ?>
+            <form action="<?= base_url('register/store') ?>" method="POST">
+
+                <div class="mb-3">
+                    <label for="role_name" class="form-label">Role</label>
+                    <select class="form-select" id="role_name" name="role_name" required>
+                        <?php
+
+                        use App\Models\UserModel;
+
+                        $userModel = new UserModel();
+                        $roles = $userModel->getRoles(); // Mengambil daftar role dari tabel database
+
+                        foreach ($roles as $role) :
+                        ?>
+                            <option value="<?= $role['id_role'] ?>" <?= (isset($user['role_name']) && $user['role_name'] == $role['id_role']) ? "selected" : "" ?>>
+                                <?= $role['role_name'] ?>
+                            </option>
+                        <?php endforeach ?>
+                    </select>
+                </div>
 
                 <div class="form-group">
                     <label for="username">Username</label>
