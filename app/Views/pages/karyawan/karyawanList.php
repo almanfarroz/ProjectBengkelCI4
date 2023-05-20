@@ -58,7 +58,6 @@
                         <th scope="col">No</th>
                         <th scope="col">Username</th>
                         <th scope="col">Email</th>
-                        <th scope="col">Aksi</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -72,33 +71,9 @@
                             <th scope="row"><?= $no ?></th>
                             <td><?= $karyawan['username'] ?></td>
                             <td><?= $karyawan['email'] ?></td>
-                            <td>
-                                <a href="<?= base_url(['listkaryawan', $karyawan['id_user'], 'edit']) ?>" class="btn btn-warning me-2">
-                                    Edit
-                                </a>
-                                <a data-bs-toggle="modal" data-bs-target="#modal-delete-karyawan-<?= $karyawan['id_user'] ?>" class="btn btn-danger">
-                                    Delete
-                                </a>
-                            </td>
                         </tr>
 
-                        <div class="modal fade" id="modal-delete-karyawan-<?= $karyawan['id_user'] ?>" tabindex="-1" aria-labelledby="modal-delete-karyawan-<?= $karyawan['id_user'] ?>-label" aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="modal-delete-karyawan-<?= $karyawan['id_user'] ?>-label">Hapus data mahasiswa ini?</h5>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <p>Apakah anda yakin ingin menghapus data mahasiswa ini? Data yang telah dihapus tidak bisa dikembalikan.</p>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-                                        <a href="<?= base_url(['listkaryawan', $karyawan['id_user'], 'deletekaryawan']) ?>" class="btn btn-danger">Delete</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+
                     <?php
                         $no++;
                     endforeach;

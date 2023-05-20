@@ -96,7 +96,7 @@
             <!-- Nav Item - Charts -->
             <li class="nav-item">
                 <a class="nav-link" href="<?= base_url(['/listkaryawan']) ?>">
-                    <i class="fas fa-fw fa-chart-area"></i>
+                    <i class="fas fa-fw fa-user"></i>
                     <span>Karyawan</span></a>
             </li>
 
